@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Agente Legal</title>
+	<link rel="stylesheet" media="screen" href="static/core/css/bootstrap.min.css">
+	<link rel="stylesheet" media="screen" href="static/procesos/css/vistaAgente.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" role="navigation">
+  <ul>
+  	<a class="navbar-brand" href="#">Sistema de Procesos Legales</a>
+  </ul>
+</nav>
+
+<section class="subMenu">
+	<span class="glyphicon glyphicon-chevron-right"> Bienvenido Daniel Rico</span>
+</section>
+
+<ul class="nav nav-pills nav-stacked">
+	<li><a class="nav_main" href="/procesos">Procesos</a></li>
+	<li><a class="nav_main" href="/procesosendesarrollo">En Proceso</a></li>
+	<li><a class="nav_main" href="/historico">Historico</a></li>
+	<li><a class="nav_main" href="/clientes">Clientes</a></li>
+	<li><a class="nav_main" href="/miperfil">Mi perfil</a></li>
+</ul>
+
+
+{% block content %}{% endblock%}
+<script src="static/core/js/jquery.min.js"></script>
+<script src="static/core/js/bootstrap.min.js"></script>
+</body>
+</html>
