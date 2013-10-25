@@ -8,15 +8,19 @@ a, a:hover{text-decoration: none;}
 	height: 110px;
 	background: #333333;
 }
-.login{
+.pull-right{
+	position: absolute;
+	right: 5%
+}
+.login, .singup{
 	font-size: 20px;
 	position: relative;
 	color: #13B876;
-	left:80%;
 	line-height: 20px;
 	top: 40px;
+	margin-left: 5px;
 }
-.login:hover{
+.login:hover, .singup:hover{
 color: #00C571;
 
 }

@@ -29,6 +29,22 @@
 	background-color: #333333 ;
 	opacity: 0.8;
 }
+.close{
+	font-weight: normal;
+	text-shadow: none;
+	color:#FFFFFF;
+	font-size: 26px;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+.close:hover{
+	font-weight: normal;
+	text-shadow: none;
+	color:#FFFFFF;
+	font-size: 26px;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:focus{
